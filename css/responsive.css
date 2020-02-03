@@ -1,0 +1,111 @@
+/* lg */ 
+@media (min-width: 1200px) {
+    /* Make Navigation Toggle on Desktop Hover */
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Make Navigation Toggle on Desktop Hover */
+
+}
+
+@media (min-width: 768px) {
+    #help-info-m {
+        display: none;
+    }
+    #m-title {
+        display: none;
+    }
+}
+
+/* xs */
+@media (max-width: 767px) {
+   
+
+
+
+
+}
+
+
+/* XS Portrait */
+@media (max-width: 480px) {
+    #help-info {
+        display: none;
+    }
+
+    #login_banner .mt-5 {
+        margin-top: -5.5rem !important;
+        margin-bottom: -2rem;
+    }
+    .navbar {
+        display: none !important;
+    }
+    .co_x_3 {
+        margin-left: 0px;
+    }
+    .b_h_bnt {
+        box-shadow: none;
+        border-style: none;
+        padding: 35px 10px 0;
+    }
+    .b_h1_w {
+        font-size: 2rem;
+    }
+    .mb-3 {
+        margin-bottom:0rem !important;
+    }
+    .b_bnt_colo {
+        padding: 0 33px;
+        width: 125px;
+        margin: 23px 11px 0;
+        background-color: #12bbad;
+        border-radius: 3rem;
+    }
+    .b_h_bg {
+        background-size: 190%;
+        background-position: 87% 64%;
+    }
+    .dd_h1_up_a1{
+        display: none;
+    }
+    .dd_h1_up_a2{
+        display: none;
+    }
+    #adv_banner .pb-5 {
+        padding: 1rem 0rem 0rem !important;
+        text-align: center;
+    }
+    .border-r{
+        display: none;
+    }
+
+    #adv_banner .mb-4 {
+        margin-bottom: 1.25rem !important;
+    }
+    #chart-line {
+        display: none;
+    }
+    #account-footer img{
+        display: none;
+    }
+    .b_h_200_mnone {
+        height: 0px;
+    }
+    #co_1 {
+        display: none;
+    }
+    #b_sss {
+        display: none;
+    }
+
+}
+
+

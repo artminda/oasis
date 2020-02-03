@@ -1,0 +1,188 @@
+/*-------------------------
+背景漸層藍色透明
+---------------------------*/	
+	
+.b_bg_cooo{background: linear-gradient(32deg, rgba(0,24,48, 0.5)40%, rgba(18,66,107, 0.5)75%); 
+background: -moz-linear-gradient(32deg, rgba(0,24,48, 0.5)40%, rgba(18,66,107, 0.5)75%); 
+background: -webkit-linear-gradient(32deg, rgba(0,24,48, 0.5)40%, rgba(18,66,107, 0.5)75%); 
+background: -o-linear-gradient(32deg, rgba(0,24,48, 0.5)40%, rgba(18,66,107, 0.5)75%); }	
+	
+  
+/*------------------
+自訂-排版 
+--------------------*/
+.wte_c{width:100%;text-align: center;}
+.bb_hp_100{height: 100%; padding: 30px;}
+.bb-item{padding-left: 25px}
+
+/*-----------------------------
+按鈕顏色
+--------------------------------*/
+
+.butt_b{background: black;
+    border: 2px #12bbad solid;
+    color: #12bbad;}	
+	
+	
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    border-bottom: 2px solid #12bbad;
+    color: #12bbad;
+    font-size: 26px;
+    cursor: default;
+}
+
+	
+
+/*------------------------
+邊框線
+--------------------------*/
+
+.boo_rr_1{border: .5px #ffffff61 solid;}
+
+
+/*-----------------------
+字顏色變化
+-------------------------*/
+
+.bb_f_c{font-size: 23px;color: #12bbad;}
+.bb_c{color: #12bbad;}
+.bb_f_cw50{color: rgba(255, 255, 255, 0.5)}
+.bb_f_26{font-size:26px;}
+.bb_c_w{color: white;}
+
+/*--------------------
+分隔線
+----------------------*/
+.b_s_s_acc {
+    position: relative;
+    left: -10px;
+    width: 285px;
+    border-top: 3px solid #fff3;
+    margin-bottom: 15px;
+}
+
+
+/*--------------------------
+ON/OFF按鈕CSS
+----------------------------*/
+
+.onoffswitch {
+    position: relative;
+    width: 90px;
+    top: 4px;
+   
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.onoffswitch2 {
+    position: relative;  
+    top: 4px;   
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #12bbad;
+	color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+
+.onoffswitch-switch2 {
+    display: block;
+    width: 18px;
+    margin: 6px 6px 6px 6px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 12px;
+    bottom: 1px;
+    right: 56px;
+    border: 2px solid #999999;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
+.o-left {
+    left: 80px;
+}
+
+/*--------------------------
+字背景+透明
+----------------------------*/
+
+.bbg_ba_c{
+	background: #0000006e;
+    border: 1px #ffffff5c solid;}
+	
+.accountbg{background-attachment:fixed}	
+
+.sidebar__auth{text-align: center;}
+
+
+/*----------------------
+LOGO大小 - 重複INDEX
+--------------------------*/
+ .m-logo{width: 220px;
+    position: relative;
+    top: 0;
+    left: -15px;}
+	
+/*----------------------
+我的帳戶
+------------------------*/	
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    border-bottom: 2px solid #12bbad;
+    color: #12bbad;
+    font-size: 18px;
+    cursor: default;
+}
+.nav-tabs .nav-link {
+    /* border: 1px solid transparent; */
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    font-size: 18px;
+}
+.pa_0{padding:0}	
+
+.foo_si{font-size: 15px;}
+	

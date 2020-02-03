@@ -1,0 +1,51 @@
+	.saa a {
+		display: inline-block;
+		text-align: center;
+		color: #fff;
+		padding: 3vw;
+		/* background: paleturquoise;*/
+		border-radius: 7px;
+		margin: 0px 1vw;
+		font-size: 5vw;
+	}
+	.saa img {
+		margin: 3px 0 text-align: center;
+	}
+	.your-item {
+		position: relative;
+	}
+	.your-item:after {
+		content: '';
+		height: 50%;
+		width: 1px;
+		position: absolute;
+		right: -8px;
+		top: 25px;
+		background-color: #fff;
+	}
+	.bmm_bg_cooo {
+		background: linear-gradient(32deg, rgba(0, 24, 48, 1)40%, rgba(18, 66, 107, 1)75%);
+		background: -moz-linear-gradient(32deg, rgba(0, 24, 48, 1)40%, rgba(18, 66, 107, 1)75%);
+		background: -webkit-linear-gradient(32deg, rgba(0, 24, 48, 1)40%, rgba(18, 66, 107, 1)75%);
+		background: -o-linear-gradient(32deg, rgba(0, 24, 48, 1)40%, rgba(18, 66, 107, 1)75%);
+	}
+	.m_fn_bott {
+		margin: 0 auto;
+		line-height: 30px;
+		position: fixed;
+		bottom: 0;
+		width: 100vw;
+		border-top: 1px #12bbad solid;
+		z-index: 999;
+	}
+	#mobile_menu {
+		text-align: center;
+	}
+
+	/* sm 除手機以外不顯示*/
+	@media (min-width: 768px)  {
+  		#mobile_menu{
+			display: none;
+		}
+
+	}
